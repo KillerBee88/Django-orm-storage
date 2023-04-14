@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ### Далее запустить проект командой:
 
-python manage.py
+python manage.py runserver 0.0.0.0:8000
 
 ## Цель проекта:
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков dvmn.org.
