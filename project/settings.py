@@ -19,7 +19,7 @@ DATABASES = {
 
 INSTALLED_APPS = ['datacenter']
 
-SECRET_KEY = env('DATABASE_SECRET_KEY', deafult='ANY_KEY')
+SECRET_KEY = env('DATABASE_SECRET_KEY', default='ANY_KEY')
 
 DEBUG = env.bool('DEBUG', default=False)
 
